@@ -6,6 +6,12 @@ Use of encrypted applications combined with hardware-enforced application execut
 
 Goal is to make it economically difficult for a typical user to extract, given the use of code agents (subscriptions) and typical tools. Not a guarantee of prevention (no forever).
 
+### Anticipated shift in software architecture
+
+Software will probably shift from on-device execution toward frontend wrappers for backend servers, with proprietary implementation running on the backend. This is an anticipated direction, not a certainty.
+
+This specification addresses publishers who still want to offer protected local execution, including responsive software and offline use after initial provisioning, as that broader architectural shift occurs.
+
 ## 2. Who?
 
 1. For software publishers with proprietary implementations that they want to protect but still offer local execution.
